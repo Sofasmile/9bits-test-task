@@ -1,0 +1,8 @@
+<div class="navigation">
+  <button class="button" *ngIf="shouldShowBackButton() | async" (click)="goBack()">
+    BACK
+  </button>
+  <button class="button" *ngIf="shouldShowNextButton() | async" (click)="goNext()">
+    NEXT
+  </button>
+</div>

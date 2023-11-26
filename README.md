@@ -1,6 +1,5 @@
-# MyAngularProject1
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
+# Wizard
+A simple wizard component.
 
 ## Development server
 

@@ -1,0 +1,12 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.navigation-box {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+}
