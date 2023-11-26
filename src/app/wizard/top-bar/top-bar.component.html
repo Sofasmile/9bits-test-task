@@ -1,0 +1,9 @@
+<div class="top-bar">
+  <hr class="line">
+  <ng-container *ngIf="wizardService.currentStep$ | async as currentStep">
+    <ng-container *ngFor="let i of stepsArray">
+      <div class="step {{currentStep == i ? 'selected-colour' : null}}"> <span>{{ i }}</span> </div>
+      <hr class="line">
+    </ng-container>
+  </ng-container>
+</div>

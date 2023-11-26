@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.button {
+  background-color: #FFFF60;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

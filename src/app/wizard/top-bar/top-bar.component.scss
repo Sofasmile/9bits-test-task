@@ -1,0 +1,25 @@
+.step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #FFFFDB;
+  border: solid rgba(0, 0, 0, 0.2) 1px;
+}
+
+.selected-colour {
+  background-color: #FFFF60;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 50px;
+}
